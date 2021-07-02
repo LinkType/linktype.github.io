@@ -1,0 +1,121 @@
+/*
+Made by LinkType
+linktype.github.io
+*/
+
+::-moz-selection {
+  color: #fff;
+  background: #000;
+  font-weight:bold;
+}
+
+::selection {
+  color: #fff;
+  background: #000;
+  font-weight:bold;
+}
+
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+#glow {
+  box-shadow: 0 4px 8px 0 #d1d1d1, 0 6px 20px 0 #d1d1d1;
+}
+
+.bgtop {
+  background-image: url("https://ccn0.github.io/img/rapper360dark.png");
+  background-repeat: no-repeat;
+  background-position: center top; 
+  height: 360px;
+  float: center;
+  min-width: 140px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  color:#fff;
+  text-shadow: 2px 2px 4px #d1d1d1;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  border-radius: 0px 0px 12px 12px;
+  cursor: default;
+}
+
+.link {
+  background-color: #fff;
+  width: 95%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:5px;
+  padding: 2px 5px 2px 5px;
+  max-width: 360px;
+  text-align: right;
+  cursor: default;
+  transition: padding 0.2s;
+}
+
+.link:hover {
+  padding: 4px 7px 4px 7px;
+}
+
+.button {
+  padding: 7px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  margin-left:10px;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: background-color 0.2s, padding 0.5s, margin-left 0.5s, color 0.2s;
+}
+
+.button:hover {
+  background-color: #242424;
+  color: #fff;
+  padding:10px;
+  margin-left: 2px;
+}
+
+.button:active {
+  background-color: #d1d1d1;
+  color: #fff;
+}
+
+.title {
+  font-size: 200%;
+  transition: font-size 0.5s;
+}
+
+.title:hover {
+  font-size: 250%;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #fff;
+  width: 95%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:5px;
+  padding: 2px 5px 2px 5px;
+  max-width: 360px;
+  text-align: center;
+  cursor: default;
+  transition: padding 0.2s;
+}
+
+.card:hover {
+  padding: 4px 7px 4px 7px;
+}
