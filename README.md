@@ -1,2 +1,2 @@
-# linktype.github.io
-LinkType Prototyping
+# LinkType.github.io
+This GitHub Pages site is used for testing and prototyping the LinkType app.
