@@ -3,6 +3,8 @@ Made by LinkType
 linktype.github.io
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 ::-moz-selection {
   color: #fff;
   background: #000;
@@ -19,6 +21,7 @@ linktype.github.io
 body {
   margin: 0;
   background-color: #000;
+  font-family: 'Roboto', sans-serif;
 }
 
 #glow {
