@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin:0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+
+p {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  color:#fff;
+  cursor: default;
+  font-size:100%;
+}
+
+.norm {
+  transition: font-size 1s;
+}
+
+.norm:hover {
+  font-size: 125%;
+}
+
+a {
+  text-decoration: none;
+  color: #00ffff;
+}
+
+a:hover:active {
+  color:#ffff00;
+}
+
+a:active {
+  color:#ffff00;
+}
+
+a:hover {
+  color:#ff00ff;
+}
+
+.tlarge {
+  font-size: 300%;
+  transition: font-size 1s;
+}
+
+.tsmall {
+  font-size: 75%;
+  transition: font-size 1s;
+}
+
+.tsmall:hover {
+  font-size: 100%;
+}
+
+.tlarge:hover {
+  font-size: 350%;
+}
+
+img {
+  filter: grayscale(100%);
+  width:10%;
+  transition: width 1s, transform 0.6s, filter 0.5s;
+}
+
+img:hover {
+  width:13%;
+  transform: rotate(15deg);
+  filter: grayscale(0%);
+}
+
+img:active:hover {
+  width:15%;
+}
+</style>
+</head>
+<body>
+<p><span class="tlarge">404</span><br>
+<span class="norm">There's nothing here!</span><br>
+<a href="/peeps" class="tsmall">Peeps</a> <a href="/what" class="tsmall">?</a><br><br><br><br><br><br>
+<a href="/home"><img alt="LinkType" src="https://linktype.github.io/cdn/lt.svg"></a></body>
+
+</html>
