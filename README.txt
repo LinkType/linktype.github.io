@@ -1,0 +1,1 @@
+﻿This site is a test and place for beta linktype users, peeps, to give them a LinkType page early. This site is also used for stuff like showcasing the app. You can see the peeps here. To apply for a LinkType page, email me.
