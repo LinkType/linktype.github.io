@@ -1,1 +1,1 @@
-This site is a test and place for beta linktype users, peeps, to give them a LinkType page early. This site is also used for stuff like showcasing the app. You can see the peeps at https://linktype.github.io/peeps . To apply for a LinkType page, email me.
+This site is a test and place for beta linktype users, peeps, to give them a LinkType page early. This site is also used for stuff like showcasing the app. You can see the peeps at https://linktype.github.io/peeps . To apply for a LinkType page, go to https://linktype.github.io/peeps/apply.
