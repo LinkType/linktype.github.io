@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home - LinkType</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="description" content="A link index project">
+<meta name="keywords" content="linktype, ARG, LinkType, links">
+<meta name="author" content="LinkType">
+<link rel="stylesheet" href="https://linktype.github.io/cdn/linktype.css">
+<style>
+  body {
+  margin:0;
+  }
+  .topnav {
+  background-color: #505050;
+  padding:5px;
+  color:#fff;
+  }
+  .topnav img {
+  margin-right:5px;
+  }
+  .bodyland {
+  padding:10px;color:#fff;
+  }
+  a {
+  color:#00ffff;
+  }
+  a:active:hover {
+  color:#ff00ff;
+  }
+  a:hover {
+  color:#ffff00;
+  }
+  p,h1{
+  cursor:default;
+  }
+  .botnav {
+  color:#fff;
+  background-color: #505050;
+  width:200px;
+  }
+  .imp {
+  color:#ff0000;
+  text-align:center;
+  cursor:help;
+  }
+  form {
+  text-align:center;
+  margin-bottom:50px;
+  }
+  input {
+  margin-top:5px;
+  }
+  input[type=submit]{
+  cursor:pointer;
+  background-color:#2e2e2e;
+  border:none;
+  padding:5px;
+  color:#fff;
+  transition: background-color 0.5s, padding 0.5s;
+  }
+  input[type=submit]:hover {
+  padding:10px;
+  background-color:#737373;
+  }
+  input[type=submit]:active {
+  padding:7px;
+  background-color:#525252;
+  }
+  input[type=text],input[type=url]{
+  border:none;
+  padding:5px;
+  }
+  textarea{
+  width:200px;
+  height:50px;
+  padding:5px;
+  border:none;
+  }
+  form h2 {
+  cursor:default;
+  }
+</style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="https://linktype.github.io"><img src="https://linktype.github.io/cdn/lt.svg" width="50px"></a> 
+    <img src="https://linktype.github.io/cdn/apply.svg" width="58px"></div>
+  <div class="bodyland">
+    <h1>apply for a LinkType page</h1>
+    <p class="imp"><b>!!!</b> This is <u>not complete</u>. You cannot modify or edit <b>any</b> links you make yet. Double-check your links to make sure they lead to the right place. This is a POC (proof of concept)<b>!!!</b></p>
+    <form action="blah.php">
+    <h2>Header</h2>
+    <label for="handle">Handle: </label><input type="text" id="handle" name="handle" placeholder="no underscores or spaces" required><br>
+    <label for="title">Title: </label><input type="text" id="title" name="title" maxlength="20" required><br>
+    <label for="img">Image (optional): </label><input type="file" id="img" name="img"><br><br>
+    
+    <h2>Colors</h2>
+    <label for="bgcolor">Background: </label><input type="color" id="bgcolor" name="bgcolor"><br>
+    <label for="linkcolor">Link Color: </label><input type="color" id="linkcolor" name="linkcolor"><br>
+    <label for="linkhcolor">Link Hover Color: </label><input type="color" id="linkhcolor" name="linkhcolor"><br>
+    <label for="linkacolor">Link Clicked Colors: </label><input type="color" id="linkacolor" name="linkacolor"><br><br>
+    
+    <h2>Links</h2>
+    <label for="link1">Link 1: </label><input type="text" id="l1" name="l1" placeholder="name" required> <input type="url" id="l1u" name="l1u" placeholder="URL" required><br>
+    
+    <input type="checkbox"><label for="link2">Link 2: </label><input type="text" id="l2" name="l2" placeholder="name"> <input type="url" id="l2u" name="l2u" placeholder="URL" required><br>
+    
+    <input type="checkbox"><label for="link3">Link 3: </label><input type="text" id="l3" name="l3" placeholder="name"> <input type="url" id="l3u" name="l3u" placeholder="URL" required><br>
+    
+    <input type="checkbox"><label for="link4">Link 4: </label><input type="text" id="l4" name="l4" placeholder="name"> <input type="url" id="l4u" name="l4u" placeholder="URL" required><br>
+    
+    <input type="checkbox"><label for="divider">Footer (optional): </label><br><textarea name="divider" id="divider" placeholder="max length 100 characters, can include html" maxlength="100"></textarea>
+    <br><br>
+    <h2>Contact</h2><label for="email">Email (not shared): </label><input type="email" name="email" id="email" required><br><input type="submit" value="Apply for Page">
+    </form>
+  </div>
+  <p style="text-align:center;color:#fff;">© <a href="https://github.com/linktype/">LinkType</a> 2021-2022</p>
+</body>
+<!-- my neck hurts like hell -->
+</html>
